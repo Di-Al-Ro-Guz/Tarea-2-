@@ -19,12 +19,10 @@ ASCII representa letras, números y símbolos como números binarios de 7 bits (
 - Permite la comunicación entre diferentes dispositivos y sistemas.  
 - Es la base para otros estándares modernos como Unicode.  
 
-**Referencia:**  
-[ASCII Table](https://www.asciitable.com/)
-
 ---
 
-## 2. Pines de los conectores RS232 (DB9 y DB25)
+## 2. 
+**Pines de los conectores RS232 (DB9 y DB25)**
 
 ### Conector DB9
 | Pin | Nombre | Descripción |
