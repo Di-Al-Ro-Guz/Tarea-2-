@@ -1,7 +1,7 @@
 # Tarea 2
 # Comunicación RS232 y Código ASCII
 
-Este documento contiene una descripción del código ASCII, los conectores RS232 (DB9 y DB25) y el formato del protocolo RS232.
+Esta tarea código ASCII, los conectores RS232 (DB9 y DB25) y el formato del protocolo RS232.
 
 ---
 
@@ -9,16 +9,17 @@ Este documento contiene una descripción del código ASCII, los conectores RS232
 ![Descripción de la imagen](Screenshot_2025-09-03_223624.png) 
 **Código ASCII**
 **Historia:**  
-El código ASCII (American Standard Code for Information Interchange) fue desarrollado en 1963 por el comité ANSI. Su propósito fue unificar la representación de caracteres en computadoras, reemplazando distintos códigos propietarios que usaban los fabricantes.
+El código ASCII (American Standard Code for Information Interchange) nació en los años 60 como una solución a un problema: cada fabricante de computadoras usaba sus propios códigos para representar caracteres, lo que hacía muy difícil que diferentes equipos se entendieran. ASCII unificó esto creando un estándar que todos podían seguir.  
 
 **Funcionamiento:**  
-ASCII representa letras, números y símbolos como números binarios de 7 bits (0-127). Cada carácter corresponde a un valor decimal, hexadecimal y binario. Ejemplo:  
+Para su funcionamiento lo que se haces es que el codigo ASCII asigna un número a cada letra, número o símbolo. Por ejemplo, la letra **A** corresponde al número 65 y la letra **a** al 97. Estos números se convierten a binario, que es el lenguaje que entiende la computadora. De esta forma, cuando escribimos en un teclado, en realidad lo que enviamos al sistema son números binarios que van a representar un caracteres especifico. 
+Por ejemplo:  
 - Letra **A** → Decimal: 65 → Binario: 01000001  
 - Letra **a** → Decimal: 97 → Binario: 01100001  
 
 **Importancia:**  
-- Permite la comunicación entre diferentes dispositivos y sistemas.  
-- Es la base para otros estándares modernos como Unicode.  
+
+Lo más relevante de ASCII es que permitió que diferentes dispositivos pudieran comunicarse sin importar la marca o el modelo del equipo. Además, sirvió de base para estándares más modernos como Unicode, que hoy permite representar no solo letras inglesas, sino también caracteres de otros idiomas como el chino, árabe o emojis.  
 
 ---
 
@@ -55,7 +56,7 @@ ASCII representa letras, números y símbolos como números binarios de 7 bits (
 
 ---
 
-## 3.![Descripción de la imagen](image.png) 
+## 3.![Descripción de la imagen](Screenshot_2025-09-03_230355.png) 
 Formato del protocolo RS232
 
 El protocolo RS232 define cómo se transmiten los bits entre dispositivos.  
@@ -72,7 +73,4 @@ El protocolo RS232 define cómo se transmiten los bits entre dispositivos.
 2. **Bits de datos:** normalmente 7 u 8 bits que representan el carácter.  
 3. **Bit de paridad (opcional):** usado para detección de errores.  
 4. **Bits de parada (Stop bits):** uno o dos `1` que indican el fin de la trama.  
-
-Ejemplo de transmisión a 8 bits con paridad:  
-
 
