@@ -5,7 +5,8 @@ Este documento contiene una descripción del código ASCII, los conectores RS232
 
 ---
 
-## 1. Código ASCII
+## 1.![Descripción de la imagen](image.png) 
+**Código ASCII**
 **Historia:**  
 El código ASCII (American Standard Code for Information Interchange) fue desarrollado en 1963 por el comité ANSI. Su propósito fue unificar la representación de caracteres en computadoras, reemplazando distintos códigos propietarios que usaban los fabricantes.
 
