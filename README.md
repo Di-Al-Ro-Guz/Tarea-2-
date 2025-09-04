@@ -53,12 +53,10 @@ ASCII representa letras, números y símbolos como números binarios de 7 bits (
 | 20  | DTR     | Data Terminal Ready |
 | 22  | RI      | Ring Indicator |
 
-**Referencia:**  
-[RS232 Pinout](https://www.electronicshub.org/rs232-pinout/)
-
 ---
 
-## 3. Formato del protocolo RS232
+## 3.![Descripción de la imagen](image.png) 
+Formato del protocolo RS232
 
 El protocolo RS232 define cómo se transmiten los bits entre dispositivos.  
 
