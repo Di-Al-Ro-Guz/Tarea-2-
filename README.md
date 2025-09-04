@@ -58,10 +58,15 @@ Lo más relevante de ASCII es que permitió que diferentes dispositivos pudieran
 
 ## 3.![Descripción de la imagen](Screenshot_2025-09-03_230355.png) 
 Formato del protocolo RS232
+El protocolo **RS232** es un estándar de comunicación serial, es decir, envía la información **bit por bit**, a diferencia de otros métodos más modernos que pueden enviar varios datos a la vez.  
 
-El protocolo RS232 define cómo se transmiten los bits entre dispositivos.  
+**Cómo funciona:**  
+Cuando un dispositivo quiere enviar información por RS232, la información no viaja como si fueran las palabras completas, sino como secuencias de bits. Para que ambos dispositivos se puedan llegar a entiendan, se usa un formato de trama que todos deben respetar.  
+
+en pocas palabras el protocolo RS232 define cómo se transmiten los bits entre dispositivos.  
 
 **Características principales:**  
+
 - Comunicación **serial** (un bit a la vez).  
 - Velocidades comunes: 9600, 19200, 115200 bps.  
 - Señales eléctricas:  
