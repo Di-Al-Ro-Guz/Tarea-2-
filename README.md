@@ -21,7 +21,7 @@ ASCII representa letras, números y símbolos como números binarios de 7 bits (
 
 ---
 
-## 2.![Descripción de la imagen](Screenshot 2025-09-03 224023.png)  
+## 2.![Descripción de la imagen](image.png)  
 
 **Pines de los conectores RS232 (DB9 y DB25)**
 
