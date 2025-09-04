@@ -1,7 +1,7 @@
 # Tarea 2
 # Código ASCII, Pines de los conectores y Profundizacion 
 
-Esta tarea código ASCII, los conectores RS232 (DB9 y DB25) y el formato del protocolo RS232.
+Revisar, describir y profundizar acerca de código ASCII, los conectores RS232 (DB9 y DB25) y el formato del protocolo RS232.
 
 ---
 
